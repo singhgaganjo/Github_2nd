@@ -1,0 +1,311 @@
+t*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.clearfix{
+	clear: both;
+	content:"";
+	display: block;
+}
+body{
+	background-color: whitesmoke;
+	font-family: arial;
+}
+.Container{
+	width: 1140px;
+	margin: auto; 
+}
+.Text{
+	display: flex;
+	gap: 30%;
+}
+.Text h1{
+	color: black;
+	font-family: arial;
+	font-size: 30px;
+	float: left;
+	padding: 8px ;
+}
+.Text nav{
+	padding: 16px 20px ;
+	justify-content: end;
+}
+.Text a{
+	font-family: arial;
+	color: black;
+	padding: 16px 15px ;
+	text-decoration: none;
+}
+.Text a:hover{
+	background-color: rgb(4, 254, 171);
+}
+.IMG{
+	background-image:linear-gradient(rgba(51, 51, 51, 0.7),rgba(51, 51, 51, 0.8)) ,url(../img/IMG5.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px 0px 0px;
+}
+.IMG h1{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+	padding: 80px 0px 20px 0px;
+	text-transform: uppercase;
+}
+.IMG h2{
+	color: white;
+	font-size: 13px;
+	font-family: arial;
+	text-align: center;
+}
+#button{
+	background-color: rgb(4, 254, 171);
+	margin: 30px 20px 150px 450px;
+	border: none;
+	border-radius: 2px;
+}
+#button:hover{
+	background-color: azure;
+}
+.IMG button{
+	border: none;
+	padding: 8px 15px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.Portfolio{
+	background-color: white;
+	height: 500px;
+}
+.portfolio-Container{
+	margin: auto;
+	width: 1140px;
+	background-color: white;	
+}
+.portfolio-Container img{
+	width: 250px;
+	margin-top: 50px;
+	float: left;
+}
+.portfolio-Container P{
+	color: black;
+	font-family: arial;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 70px 50px 0px 550px;
+}
+.portfolio-Container button{
+	padding: 8px 15px;
+	margin: 15px 0px 0px 50px;
+}
+.portfolio-Container button:hover{
+	background-color: rgb(4, 254, 171);
+}
+.portfolio-Container h1{
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 70px;
+}
+.portfolio-Container .paragraph{
+	color: gray;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	margin: -50px 200px 0px -350px;
+}
+.portfolio-Container Nav{
+	margin: 40px 0px 40px 300px ;
+	padding: 20px 10px;
+}
+.portfolio-Container a{
+	padding: 20px 10px;
+	font-family: arial;
+	color: black;
+	margin: 16px 0px 0px 30px ;
+	text-decoration: none;
+}
+.portfolio-Container a:hover{
+	background-color: rgb(4, 254, 171);
+	padding: 10px 10px;
+}
+.portfolio-Container button{
+	border: none;
+	padding: 8px 15px;
+	border-radius: 2px;
+	cursor: pointer;
+	background-color: azure;
+}
+.pics img{
+	width: 25%;
+	float: left;
+	height: 205px;
+}
+.pics button{
+	padding: 8px 15px;
+	margin: 15px 0px 0px 590px;
+	border: none;
+	cursor: pointer;
+}
+.pics button:hover{
+	background-color:rgb(4, 254, 171) ;
+}
+.services h1{
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 70px;
+}
+.services p{
+	color: gray;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	padding: 30px 200px 50px 200px;
+}
+.In{
+	width: 25%;
+	float: left;
+}
+.In i{
+	padding-top: 20px;
+	margin-left: 45%;
+	color: black;
+	text-align: center;
+}
+.In h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+}
+.In p{
+	text-align: center;
+	padding: 10px 40px 20px 40px;
+	font-size: 10px;
+	line-height: 18px;
+}
+.In:hover{
+	background-color: hwb(160 50% 0%);
+}
+.Main_box{
+	background-position: center;
+	background-size: cover;
+	background-image:linear-gradient(rgba(51, 51, 51, 0.7),rgba(51, 51, 51, 0.8)) ,url(../img/img13.jpg);
+}
+.Boxe{
+	padding: 100px 0px 200px 310px;
+}
+.Box{
+	border: 1px solid white;
+	float: left;
+	margin: 10px;
+}
+.Box:hover{
+	background-color: red;
+}
+.Box i{
+	color: white;
+	margin: 10px 50px 10px 50px;
+}
+.Box h1{
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+}
+.Box h2{
+	color: white;
+	font-family: arial;
+	font-size: 10px;
+	text-align: center;
+	font-weight: lighter;
+	padding: 10px 10px 10px 10px;
+}
+.Team h1{
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 70px;
+	text-transform: uppercase;
+}
+.Team p{
+	color: gray;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	padding: 30px 200px 50px 200px;
+}
+.Team_member{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding-bottom: 39px;
+}
+.Box_1{
+	background-image:url(../img/img4.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 25%;
+	height: 230px;
+	padding: 25px 0px 25px 50px;
+}
+.Box_2{
+	background-image:url(../img/img18.jpg);
+	background-size: cover;
+	width: 25%;
+	height: 230px;
+	padding: 25px 0px 25px 50px;
+}
+.Box_3{
+	background-image:url(../img/img17.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 25%;
+	height: 230px;
+	padding: 25px 0px 25px 50px;
+}
+.Box_4{
+	width: 80%;
+	height: 180px;	
+}
+.Box_4:hover{
+	background-color:rgba(51, 51, 51, 0.8);
+}
+.Box_4 i{
+	color: transparent;
+	margin: 80px 80px;
+}
+.Box_4 i:hover{
+	color: white;
+	margin: 80px 80px;
+}
+
+.GAGAN{
+	background-color: pink;
+	height: 500px;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.Profile{
+	background-image:linear-gradient(rgba(51, 51, 51, 0.7),rgba(51, 51, 51, 0.8)) ,url(../img/IMG5.jpg);
+}
+.Profile_pic{
+	background-color: pink;
+	display: flex;
+	align-self: center;
+}
+.Profile_pic img{
+	border-radius:100%;
+	height: 300px;
+	width: 300px;
+	
+
+}
